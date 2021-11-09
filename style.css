@@ -4,11 +4,7 @@
 }
 
 #navbar a {
-  float: left;
-  display: block;
   color: #000000;
-  text-align: center;
-  text-decoration: none;
 }
 
 #navbar a:hover {
@@ -35,6 +31,14 @@
   padding: 0 5px;
 }
 
+#navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+#navbar ul li {
+  display: inline-block;
+}
 
 .nav-item a:hover{
   color:rgb(255, 255, 255);
@@ -61,11 +65,12 @@ header {
 
 .site_title {
   position: absolute;
-  top: 20%;
-  left: 5%;
+  top: 25%;
+  left: 35%;
   z-index: 2;
   font-family: 'Roboto' sans-serif;
   color:rgb(255, 255, 255);
+  text-align:center;
 }
 
 .site_title h1{
@@ -73,9 +78,13 @@ header {
   line-height:90%;
 }
 
+.site_title h2{
+  color:rgb(194, 194, 194);
+}
+
 .site_title h6{
   line-height:150%;
-  color:rgb(173, 173, 173);
+  color:rgb(95, 95, 95);
 }
 
 .overlay {
@@ -92,7 +101,7 @@ header {
   margin-right: auto;
   margin-left: auto;
   max-width: 600px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   padding-top: 80px;
 }
 
@@ -121,19 +130,19 @@ header {
 
 #projects {
   background-color: rgb(17, 17, 17);
-  padding-top: 80px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 #projects h1{
   margin-right: auto;
   margin-left: auto;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 .card-body small{
   margin-top: 1100px;
   font-size:8px;
-  color:rgb(165, 165, 165);
 }
 
 .card-group {
