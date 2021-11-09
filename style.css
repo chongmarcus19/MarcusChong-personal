@@ -74,6 +74,7 @@ header {
 }
 
 .site_title h1{
+  padding-top:10px;
   font-size: 60px;
   line-height:90%;
 }
