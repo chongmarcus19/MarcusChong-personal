@@ -7,10 +7,6 @@
   color: #000000;
 }
 
-#navbar a:hover {
-  background-color: #ffffff;
-}
-
 .content {
   padding: 16px;
 }
@@ -29,6 +25,7 @@
 .nav-item {
   font-size: 120%;
   padding: 0 5px;
+  padding-right: 10px;
 }
 
 #navbar ul {
@@ -40,8 +37,28 @@
   display: inline-block;
 }
 
-.nav-item a:hover{
-  color:rgb(255, 255, 255);
+.nav-link {
+  display: inline-block;
+  position: relative;
+  color: #000000;
+}
+
+.nav-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .media {
@@ -167,3 +184,4 @@ header {
 .navbar .socials li:hover {
   background-color: #ffffff;
 }
+
