@@ -185,7 +185,14 @@ header {
   padding: 0 12px;
 }
 
-.navbar .socials li:hover {
-  background-color: #ffffff;
+.navbar ul li:hover .fa-github {
+  color: #ffffff;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
 }
 
+.navbar ul li:hover .fa-linkedin {
+  color: #ffffff;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
