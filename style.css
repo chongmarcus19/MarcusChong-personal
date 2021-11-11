@@ -5,6 +5,7 @@
 
 #navbar a {
   color: #000000;
+  font-family: "Montserrat", helvetica, arial, sans-serif;
 }
 
 .content {
@@ -92,17 +93,20 @@ header {
 
 .site_title h1{
   padding-top:10px;
-  font-size: 60px;
+  font-size: 5em;
   line-height:90%;
+  font-family: "Montserrat", helvetica, arial, sans-serif;
 }
 
 .site_title h2{
   color:rgb(194, 194, 194);
+  font-family: "Montserrat", helvetica, arial, sans-serif;
 }
 
 .site_title h6{
   line-height:150%;
   color:rgb(95, 95, 95);
+  font-family: "Montserrat", helvetica, arial, sans-serif;
 }
 
 .overlay {
