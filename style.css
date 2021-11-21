@@ -99,13 +99,13 @@ header {
 }
 
 .site_title h2{
-  color:rgb(194, 194, 194);
+  color:rgb(255, 255, 255);
   font-family: "Montserrat", helvetica, arial, sans-serif;
 }
 
 .site_title h6{
   line-height:150%;
-  color:rgb(95, 95, 95);
+  color:rgb(150, 150, 150);
   font-family: "Montserrat", helvetica, arial, sans-serif;
 }
 
@@ -195,4 +195,11 @@ header {
   color: #ffffff;
   text-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
+}
+
+#formFooter {
+  background-color: #f0f0f0;
+  width: 120%;
+  margin: auto;
+  text-align: center;
 }
