@@ -186,13 +186,13 @@ header {
 }
 
 .navbar ul li:hover .fa-github {
-  color: #ffffff;
+  color: #000000;
   text-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
 }
 
 .navbar ul li:hover .fa-linkedin {
-  color: #ffffff;
+  color: #000000;
   text-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
 }
