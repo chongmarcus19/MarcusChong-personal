@@ -95,13 +95,15 @@ header {
   font-family: "Montserrat", helvetica, arial, sans-serif;
 }
 
-.site_title h2{
-  color:rgb(255, 255, 255);
+.site_title h5{
+  color:rgb(209, 209, 209);
+  letter-spacing: 3px;
   font-family: "Montserrat", helvetica, arial, sans-serif;
 }
 
-.site_title h6{
+.site_title small{
   line-height:150%;
+  letter-spacing: 2px;
   color:rgb(150, 150, 150);
   font-family: "Montserrat", helvetica, arial, sans-serif;
 }
