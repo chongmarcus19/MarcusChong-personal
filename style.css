@@ -1,5 +1,5 @@
 #navbar {
-  background-color: rgb(241, 241, 241);
+  background-color: #d0c9c0;
 }
 
 #navbar a {
@@ -68,22 +68,18 @@ header {
 }
 
 .main {
-  background-image: url(images/IMG_1423.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-size: cover;
+  background-color: #6d8b74;
   position: relative;
   width: 100%;
-  height: 650px;
+  height: 500px;
   padding-bottom: 100px;
 }
 
 .site_title {
   position: relative;
-  top: 20%;
+  top: 35%;
   z-index: 2;
   line-height: 10px;
-  font-family: "Roboto" sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
   margin: 0 auto;
@@ -96,7 +92,7 @@ header {
 }
 
 .site_title h5 {
-  color: rgb(209, 209, 209);
+  color: rgb(0, 0, 0);
   letter-spacing: 3px;
   line-height: 100%;
   font-family: "Montserrat", helvetica, arial, sans-serif;
@@ -105,10 +101,11 @@ header {
 .site_title small {
   line-height: 200%;
   letter-spacing: 2px;
-  color: rgb(150, 150, 150);
+  color: rgb(0, 0, 0);
   font-family: "Montserrat", helvetica, arial, sans-serif;
 }
 
+/* 
 .overlay {
   background: rgba(0, 0, 0, 0.589);
   width: 100%;
@@ -117,46 +114,44 @@ header {
   top: 0;
   left: 0;
   z-index: 1;
-}
+} */
 
 #about {
+  background-color: #efead8;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
-  max-width: 600px;
   padding-bottom: 80px;
   padding-top: 80px;
 }
 
 #about h1 {
-  font-size: 50px;
-  font-weight: bold;
+  color: #5f7161;
+  font-size: 60px;
+  padding-bottom: 30px;
 }
 
 #about h4 {
   color: rgb(73, 73, 73);
-  margin-top: 100px;
-  display: inline;
-  line-height: 150%;
-}
-
-#about a {
+  font-weight: 700;
   font-size: 150%;
 }
 
 #about h5 {
   color: rgb(73, 73, 73);
+  font-weight: 200;
   font-size: 150%;
-  margin-top: 20px;
-  line-height: 150%;
 }
 
 #projects {
-  background-color: rgb(17, 17, 17);
+  background-color: #d0c9c0;
   padding-top: 90px;
   padding-bottom: 90px;
 }
 
 #projects h1 {
+  color: #000000;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
   font-size: 60px;
