@@ -1,0 +1,215 @@
+#navbar {
+  background-color: #d0c9c0;
+}
+
+#navbar a {
+  color: #000000;
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding-bottom: 1px;
+}
+
+.nav-item {
+  font-size: 120%;
+  padding: 0 5px;
+  padding-right: 10px;
+}
+
+#navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+#navbar ul li {
+  display: inline-block;
+}
+
+.nav-link {
+  display: inline-block;
+  position: relative;
+  color: #000000;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.media {
+  padding-left: 10px;
+}
+
+header {
+  margin: 0px;
+  padding-top: 0px;
+}
+
+.main {
+  background-color: #6d8b74;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  padding-bottom: 100px;
+}
+
+.site_title {
+  position: relative;
+  top: 35%;
+  z-index: 2;
+  line-height: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.site_title h1 {
+  font-size: 5em;
+  line-height: 100%;
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+}
+
+.site_title h5 {
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+  line-height: 100%;
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+}
+
+.site_title small {
+  line-height: 200%;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+}
+
+/* 
+.overlay {
+  background: rgba(0, 0, 0, 0.589);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+} */
+
+#about {
+  background-color: #efead8;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+#about h1 {
+  color: #5f7161;
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+
+#about h4 {
+  color: rgb(73, 73, 73);
+  font-weight: 700;
+  font-size: 150%;
+}
+
+#about h5 {
+  color: rgb(73, 73, 73);
+  font-weight: 200;
+  font-size: 150%;
+}
+
+#projects {
+  background-color: #d0c9c0;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#projects h1 {
+  color: #000000;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 60px;
+}
+
+.card-body small {
+  margin-top: 1100px;
+  font-size: 8px;
+}
+
+.card-group {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+}
+
+.card {
+  margin: 3em;
+}
+
+.social {
+  font-size: 25px;
+}
+
+li:hover .fa-github {
+  color: #ffffff;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+li:hover .fa-linkedin {
+  color: #ffffff;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+#formFooter {
+  background-color: #f0f0f0;
+  width: 120%;
+  margin: auto;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.list-inline > li:before {
+  content: "\200B"; /* 1 */
+  position: absolute; /* 2 */
+}
