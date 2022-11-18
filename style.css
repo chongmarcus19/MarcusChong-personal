@@ -116,7 +116,7 @@ header {
   z-index: 1;
 } */
 
-#about {
+#experience {
   background-color: #efead8;
   text-align: center;
   margin-right: auto;
@@ -125,19 +125,19 @@ header {
   padding-top: 80px;
 }
 
-#about h1 {
+#experience h1 {
   color: #5f7161;
   font-size: 60px;
   padding-bottom: 30px;
 }
 
-#about h4 {
+#experience h4 {
   color: rgb(73, 73, 73);
   font-weight: 700;
   font-size: 150%;
 }
 
-#about h5 {
+#experience h5 {
   color: rgb(73, 73, 73);
   font-weight: 200;
   font-size: 150%;
