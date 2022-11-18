@@ -88,7 +88,7 @@ header {
 .site_title h1 {
   font-size: 5em;
   line-height: 100%;
-  font-family: "Montserrat", helvetica, arial, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .site_title h5 {
@@ -104,17 +104,6 @@ header {
   color: rgb(0, 0, 0);
   font-family: "Montserrat", helvetica, arial, sans-serif;
 }
-
-/* 
-.overlay {
-  background: rgba(0, 0, 0, 0.589);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-} */
 
 #experience {
   background-color: #efead8;
