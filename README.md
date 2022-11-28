@@ -1,5 +1,2 @@
 # Personal Website
-My personal portfolio website. Built with HTML and CSS
-
-## Deployed at 
-https://chongmarcus19.github.io/marcuschong.github.io/
+My personal portfolio website. Website includes experience and projects. Built with HTML and CSS
